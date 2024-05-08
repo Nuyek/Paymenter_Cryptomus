@@ -102,7 +102,6 @@ class Cryptomus extends Gateway
     {
 
         $input = file_get_contents('php://input');
-        $data = json_decode($input, true);
 
         if (!isset($input)) {
             return response()->json(['error' => 'Invalid data.'], 422);
