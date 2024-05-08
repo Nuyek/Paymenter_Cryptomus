@@ -12,4 +12,4 @@ Configure the Payment Key and Merchant ID in the configuration settings for this
 Once installed and configured, you can start using Cryptomus for payment processing.
 
 ## Support
-For any issues or questions, you can send me a quick message on discord @ zombiezach8. Support is not promised or guaranteed.
+For any issues or questions, you can send me a quick message on discord @ zombiezach8  Support is not promised or guaranteed.
