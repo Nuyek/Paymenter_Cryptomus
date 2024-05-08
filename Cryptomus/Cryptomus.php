@@ -71,7 +71,7 @@ class Cryptomus extends Gateway
             //'network' => 'ETH',
             'order_id' => (string) $invoiceId,
             'url_return' => route('clients.invoice.show', $invoiceId),
-            'url_callback' => url('/extensions/cryptomus/webhook') . '?invoiceId=' . $invoiceId,
+            'url_callback' => url('/extensions/cryptomus/webhook'),
             'is_payment_multiple' => false,
             'lifetime' => '7200',
             'is_refresh' => true,
