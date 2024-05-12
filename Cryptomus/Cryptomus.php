@@ -128,7 +128,7 @@ class Cryptomus extends Gateway
 
         if ($paymentStatus === 'paid' || $paymentStatus === 'paid_over') {
             ExtensionHelper::debug('Cryptomus', 'Cryptomus invoice ' . $invoiceId . ' verified and complete');
-            ExtensionHelper::paymentDone($invoiceId);
+            ExtensionHelper::paymentDone($invoiceId, 'Cryptomus', $data['uuid']);
             return response()->json(['success' => true]);
         }
 
